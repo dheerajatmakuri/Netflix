@@ -4,8 +4,13 @@
 
 .banner-img{
     width: 100%;
-    mask-image: linear-gradient(to right, transparent, black 75%);
-    -weblit-mask-image: linear-gradient(to right, transparent, black 75%);
+    mask-image: linear-gradient(to left, transparent, black 25%);
+    -weblit-mask-image: linear-gradient(to left, transparent, black 15%);
+
+    mask-image: linear-gradient(to right, transparent, black 25%);
+    -weblit-mask-image: linear-gradient(to right, transparent, black 25%);
+    /* mask-image: linear-gradient(to right, black 0%, transparent 0%, transparent 0%, black 85%);
+    -webkit-mask-image: linear-gradient(to right, black 0%, transparent 200%, transparent 0%, black 85%); */
 }
 
 .hero-caption{
