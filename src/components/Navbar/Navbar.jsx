@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './Navbar.css';
 import logo from '../../assets/logo.png';
 import search_icon from '../../assets/search_icon.svg';
@@ -7,6 +7,9 @@ import profile_img from '../../assets/profile_img.png';
 import caret_icon from '../../assets/caret_icon.svg';
 
 const Navbar = () => {
+
+  const navRef = useRef();
+
   useEffect(() => {
     const handleScroll = () => {
       const navbar = document.querySelector('.navbar');
