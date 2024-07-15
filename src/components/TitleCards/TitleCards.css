@@ -1,6 +1,6 @@
 .titlecards
 {
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 0px;
 } 
 
@@ -36,4 +36,36 @@
     right: 10px;
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 800px) {
+    .titlecards{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .titlecards h2{
+        font-size: 20px;
+    }
+
+    .card-list{
+        width: 1200px;
+    }
+    .card-list p{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .titlecards h2{
+        font-size: 15px;
+    }
+
+    .card-list{
+        width: 400px;
+    }
+    .card-list p{
+        font-size: 10px;
+    }
 }
