@@ -1,6 +1,7 @@
 # Netflix Clone
 
 A Netflix clone website built using React JS, Firebase, and The Movie Database (TMDb) API.
+
 ![image](https://github.com/user-attachments/assets/e378a37d-15ed-4c2f-a721-08d0818a4069)
 
 
