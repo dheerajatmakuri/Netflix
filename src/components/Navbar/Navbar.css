@@ -105,5 +105,14 @@
     }
 }
 
+@media (max-width: 400px) {
+    .navbar-right > *:not(.navbar-profile) {
+        display: none;
+    }
+
+    .navbar-profile {
+        margin-right: 55px; /* This will move it to the left */
+    }
+}
 
 

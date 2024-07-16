@@ -113,9 +113,9 @@
 }
 
 @media (max-width: 500px){
-    .caption-img{
+    /* .caption-img{
         display: none;
-    }
+    } */
 
     .hero-btns .btn img{
         width: 12px;
@@ -125,6 +125,18 @@
         gap: 5px;
         font-size: 10px;
     }
+
+    .hero-caption {
+        /* padding: 4%; Adjusted for better positioning */
+        position: relative;
+    }
+
+    .caption-img {
+        margin-bottom: 10px;
+        width: 20%; /* Increase width for smaller screens if needed */
+    }
+
+
 }
 
 
